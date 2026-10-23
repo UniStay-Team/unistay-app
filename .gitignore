@@ -43,3 +43,26 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Local settings and secrets
+.local/
+.recovery/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.sqlite*
+*.db
+*.dump
+*.backup
+*.sql
+*.log
+backups/
+media/
+uploads/
+.idea/
+.vscode/
+.DS_Store
